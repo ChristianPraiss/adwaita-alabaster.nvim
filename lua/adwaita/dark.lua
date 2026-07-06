@@ -324,6 +324,8 @@ M.set = function()
     hl('NeogitDiffAddCursor', { fg = colors.teal_3, bg = colors.libadwaita_dark_alt })
     hl('NeogitDiffContextCursor', { link = 'CursorLine' })
     hl('NeogitDiffDeleteCursor', { fg = colors.red_1, bg = colors.libadwaita_dark_alt })
+
+    hl('OilHidden', { link = 'Normal' })
 end
 
 return M
